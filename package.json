@@ -14,7 +14,7 @@
     "express": "^4.13.3",
     "express-session": "^1.12.1",
     "express-sessions": "^1.0.5",
-    "mongoose": "^4.3.3",
+    "mongoose": "^4.3.5",
     "passport": "^0.3.2",
     "passport-local": "^1.0.0"
   }
