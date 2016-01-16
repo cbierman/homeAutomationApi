@@ -1,7 +1,8 @@
-var mongoose = require('mongoose'),
-    config = require('./config');
+var config = require('./config'),
+    mongoose = require('mongoose');
 
 module.exports = function() {
-    var db = mongose.connect(config.db);
+    var db = mongoose.connect(config.db);
+    require('../app/models/outlet.model')
     return db;
 }

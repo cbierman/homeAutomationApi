@@ -8,4 +8,5 @@ var outletSchema = new Schema({
     state: "Number"
 });
 
+
 mongoose.model('Outlet', outletSchema);

@@ -5,6 +5,8 @@ var config = require('./config/config'),
     express = require('./config/express');
 
 
+
+
 var db = mongoose(),
     app = express();
 
@@ -12,3 +14,5 @@ var db = mongoose(),
 app.listen(config.port);
 module.exports = app;
 console.log(process.env.NODE_ENV + "Server running at http://localhost:" + config.port);
+
+
